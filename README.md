@@ -1,8 +1,32 @@
-# Prediction-System-Design-for-Monitoring-the-Health-of-Developing-Infants-using-Statistical-ML-
-http://www.thedesignengineering.com/index.php/DE/article/view/8706
+# Prediction System for Monitoring Infant Health using Statistical Machine Learning
 
-I have consolidated my research skills by authoring and publishing a research paper titled ‘Prediction System Design for Monitoring the Health of Developing Infants from Cardiotocography Using Statistical Machine Learning’ in the Design Engineering, a Scopus International Journal.
-<br>
-Today segregation models are widely used in health care, which is intended to support physicians in diagnosing diseases and reducing human error. The challenge is to use effective methods to extract real-world data from the medical field, as many different models have been proposed with varying results. Many researchers have focused on the problem of variability in real-time data sets in segmentation models. Some previous works create mechanisms that include similar graphs for information display and information acquisition. However, such methods are weak in finding different relationships between elements. The purpose of this diagnostic method is to measure the baby's heart rate and uterine contractions during the third trimester of pregnancy, when the baby's heart is fully functional. Cardiotocogram findings are usually divided into three categories: physical, suspicious, or pathological. The purpose of this work is to automatically distinguish these regions using cardiotocographic data.
-<br>
-Cardiotocography is a low-cost means of monitoring fetal health and a method used for lowering the child fatality rate. Visual analysis errors were one of the most serious problems with CTG monitoring. Any type of interventional surgery, whether necessary or not, raises the risk of complications. My ML model effectively differentiated normal and disturbed fetal health and was accurate enough in its predictions to avoid any unwanted interventive surgical procedures to reduce the overall risk of child mortality. In the entire research paper, I have done machine learning classification on fetal health dataset, starting with exploratory data analysis where we found the pattern and distribution of each feature in the dataset using different types of a graph such as a heatmap, histogram, and data distribution, etc. The problem of class imbalance was resolved by using SMOTE (Synthetic oversampling minority techniques) and ADASYN (Adaptive Synthetic Sampling Approach) are data sampling techniques. A well-trained model helped in identifying which variable changes to the FHR had the most significant effect on fetal health. I used five different types of classification algorithms like Logistic Regression, Random Forest, Decision Tree, Support Vector Machine, and Naive Bayes classifier. These algorithms were applied on each of the three different sampled data which consisted of Actual, SMOTE, and ADASYN data. The statistical metrics I used to differentiate the five algorithms were accuracy, precision, recall, and f1-score. On comparing the results, the best performing algorithm was Random Forest Classifier on SMOTE data sample. It gave the highest accuracy of 94% among all the remaining classifiers. Further, I used Grid Search CV and found out the best model parameters for the best metrics.
+## Overview
+This repository contains the implementation of an advanced prediction system designed to monitor the health of developing infants through cardiotocography data using statistical machine learning approaches. The research was published in Design Engineering, a Scopus-indexed international journal ([View Publication](http://www.thedesignengineering.com/index.php/DE/article/view/8706)).
+
+## Project Highlights
+
+- **Problem Addressed**: Developed an automated classification system to distinguish between normal, suspicious, and pathological cardiotocographic (CTG) readings to reduce visual analysis errors and prevent unnecessary interventional surgeries
+  
+- **Data Processing**: Implemented comprehensive exploratory data analysis techniques to identify patterns and distributions of features using heatmaps, histograms, and distribution plots
+  
+- **Class Imbalance Solutions**: Applied advanced oversampling techniques (SMOTE and ADASYN) to address class imbalance issues, creating balanced datasets that maintained the statistical integrity of the original data
+
+- **Model Development**: Implemented and compared five machine learning classification algorithms (Random Forest, Logistic Regression, Decision Tree, Support Vector Machine, and Naive Bayes) across three different sampling approaches
+
+- **Performance**: Achieved 94% accuracy with the Random Forest Classifier on SMOTE-balanced data, outperforming all other model configurations
+
+- **Hyperparameter Optimization**: Utilized Grid Search CV to identify optimal model parameters and maximize performance metrics (accuracy, precision, recall, and F1-score)
+
+- **Clinical Impact**: Created a reliable prediction system that effectively differentiates between normal and compromised fetal health, reducing the risk of unnecessary surgical interventions and contributing to lower child mortality rates
+
+## Technologies Used
+- Python (Scikit-learn, Pandas, NumPy)
+- Statistical Analysis Libraries
+- Machine Learning Classification Algorithms
+- Data Visualization Tools (Matplotlib, Seaborn)
+
+## Publication
+This research has been published in Design Engineering (Scopus Indexed International Journal) under the title "Prediction System Design for Monitoring the Health of Developing Infants from Cardiotocography Using Statistical Machine Learning."
+
+## Future Work
+Future enhancements will focus on implementing deep learning approaches, expanding the dataset, and incorporating real-time monitoring capabilities to further improve prediction accuracy and clinical utility.
