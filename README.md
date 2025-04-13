@@ -1,7 +1,7 @@
 # Prediction System design for monitoring the health of developing infants from cardiotocography using Statistical Machine Learning
 
 ## Overview
-This repository contains the implementation of an advanced prediction system designed to monitor the health of developing infants through cardiotocography data using statistical machine learning approaches. The research was published in Design Engineering, a Scopus-indexed international journal ([View Publication](https://drive.google.com/file/d/1nhXr2H0iNJ4AVpsxMxLCpthr73BgSkD8/view?usp=drive_link)).
+This repository contains the implementation of an advanced prediction system designed to monitor the health of developing infants through cardiotocography data using statistical machine learning approaches. The research was published in Design Engineering, a Scopus-indexed international journal ([View Publication](https://www.researchgate.net/publication/390732367_Prediction_System_design_for_monitoring_the_health_of_developing_infants_from_cardiotocography_using_Statistical_Machine_Learning)).
 
 ## Project Highlights
 
